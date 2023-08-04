@@ -1,0 +1,57 @@
+*{
+  margin:0 ;
+  padding: 0;
+}
+form{
+  background-color: lightgrey;
+  width: 50vh;
+  height: 25vh;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1vh;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+form h3{
+  margin: 0 auto;
+  font-weight: bold;
+}
+form input{
+  width: 94%;
+  height: 5vh;
+}
+form button{
+  width: 50%;
+  height: 6vh;
+  margin-bottom: 2vh;
+}
+.block{
+  width: 96%;
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+}
+#container{
+  width: 60vh;
+  height: 50vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction:column;
+  margin: 0 auto;
+  gap: 1vh;
+  border: 1px solid black;
+  border-radius: 10px;
+  opacity: 0;
+
+}
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+
+}
